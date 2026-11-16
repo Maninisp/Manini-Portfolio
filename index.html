@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Manini — Backend &amp; Applied AI
+  </title>
+  <link href="css/common.css" rel="stylesheet"/>
+  <link href="css/home.css" rel="stylesheet"/>
+  <link href="css/theme.css" rel="stylesheet"/>
+  <script src="js/site.js">
+  </script>
+ </head>
+ <body>
+  <div class="portfolio-shell" data-canvas-height="2650" data-canvas-width="1440">
+   <!-- HERO WRAPPER with glow -->
+   <div class="hero-region">
+    <div aria-hidden="true" class="hero-glow-left">
+    </div>
+    <div aria-hidden="true" class="hero-glow-right">
+    </div>
+    <!-- NAV -->
+    <div class="site-header portfolio-header">
+     <a class="portfolio-brand" href="#top">
+      Manini
+     </a>
+     <nav class="portfolio-nav">
+      <a class="nav-link" href="#projects">
+       Projects
+      </a>
+      <a class="nav-link" href="#client-work">
+       Experience
+      </a>
+      <a class="nav-link" href="#about">
+       About
+      </a>
+      <button aria-label="Switch to dark mode" aria-pressed="false" class="theme-toggle" title="Switch to dark mode" type="button">
+       <svg aria-hidden="true" class="moon-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
+        <path d="M20.9 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.9 13.2Z">
+        </path>
+       </svg>
+       <svg aria-hidden="true" class="sun-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" viewbox="0 0 24 24">
+        <circle cx="12" cy="12" r="4">
+        </circle>
+        <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5">
+        </path>
+       </svg>
+      </button>
+      <a class="nav-resume" href="#contact" target="_blank">
+       Resume
+      </a>
+     </nav>
+    </div>
+    <!-- HERO -->
+    <div class="home-hero" id="top">
+     <div class="hero-copy">
+      <div class="availability">
+       <span class="availability-dot">
+       </span>
+       <span>
+        Open to Python backend and software engineering
+                opportunities
+       </span>
+      </div>
+      <h1 class="hero-title">
+       Python backend developer building practical software and applied
+              AI.
+      </h1>
+      <p class="hero-description">
+       I develop backend applications using Python, FastAPI, Django and
+              PostgreSQL, with experience in API development, frontend
+              integration, deployment and LLM-powered prototypes.
+      </p>
+      <div class="hero-actions">
+       <a class="hero-primary" href="#projects">
+        See the projects
+       </a>
+       <a class="hero-secondary" href="#contact">
+        Get in touch
+       </a>
+      </div>
+     </div>
+     <!-- Portrait frame -->
+     <div class="desktop-hero-illustration hero-illustration">
+      <div class="hero-art-frame art-frame">
+       <div aria-hidden="true" class="art-glow">
+       </div>
+       <div aria-label="Friendly illustrated developer robot with ticket, paw print, and document search icons" class="hero-robot" role="img">
+        <svg aria-hidden="true" viewbox="0 0 400 470" xmlns="http://www.w3.org/2000/svg">
+         <defs>
+          <lineargradient id="robotBody" x1="0" x2="1" y1="0" y2="1">
+           <stop stop-color="#faffff">
+           </stop>
+           <stop offset="1" stop-color="#c7e0e9">
+           </stop>
+          </lineargradient>
+          <lineargradient id="robotBlue" x1="0" x2="1" y1="0" y2="1">
+           <stop stop-color="#83b2cf">
+           </stop>
+           <stop offset="1" stop-color="#426f9a">
+           </stop>
+          </lineargradient>
+          <filter height="170%" id="robotShadow" width="160%" x="-30%" y="-30%">
+           <fedropshadow dx="0" dy="10" flood-color="#244c6c" flood-opacity=".26" stddeviation="9">
+           </fedropshadow>
+          </filter>
+         </defs>
+         <ellipse cx="200" cy="423" fill="#426f9a" opacity=".18" rx="111" ry="19">
+         </ellipse>
+         <!-- project symbols -->
+         <!-- antenna -->
+         <path d="M199 100V69" stroke="#365d80" stroke-linecap="round" stroke-width="9">
+         </path>
+         <circle cx="199" cy="60" fill="#f28b22" r="13" stroke="#fff2dc" stroke-width="5">
+         </circle>
+         <!-- arms and legs -->
+         <g filter="url(#robotShadow)">
+          <path d="M129 260q-33-4-40 27l-9 31" fill="none" stroke="#477aa1" stroke-linecap="round" stroke-width="26">
+          </path>
+          <circle cx="79" cy="321" fill="#f28b22" r="18" stroke="#d7eaf0" stroke-width="6">
+          </circle>
+          <path d="M270 260q33-4 40 27l9 31" fill="none" stroke="#477aa1" stroke-linecap="round" stroke-width="26">
+          </path>
+          <circle cx="319" cy="321" fill="#f28b22" r="18" stroke="#d7eaf0" stroke-width="6">
+          </circle>
+          <path d="M169 368v35m60-35v35" stroke="#426f9a" stroke-linecap="round" stroke-width="24">
+          </path>
+          <rect fill="#365d80" height="23" rx="12" width="59" x="133" y="393">
+          </rect>
+          <rect fill="#365d80" height="23" rx="12" width="59" x="207" y="393">
+          </rect>
+         </g>
+         <!-- torso -->
+         <rect fill="url(#robotBody)" filter="url(#robotShadow)" height="151" rx="48" stroke="#527d9e" stroke-width="6" width="147" x="126" y="233">
+         </rect>
+         <path d="M150 255q48-15 99 0" opacity=".75" stroke="white" stroke-linecap="round" stroke-width="8">
+         </path>
+         <rect fill="#517fa3" height="60" rx="19" width="81" x="159" y="287">
+         </rect>
+         <path d="m177 318 15 14 27-30" fill="none" stroke="#f9b85a" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+         </path>
+         <circle cx="246" cy="358" fill="#f28b22" r="7">
+         </circle>
+         <!-- head -->
+         <g class="robot-head" filter="url(#robotShadow)">
+          <rect fill="url(#robotBody)" height="152" rx="63" stroke="#527d9e" stroke-width="6" width="192" x="104" y="108">
+          </rect>
+          <path d="M135 134q60-33 127 1" fill="none" opacity=".72" stroke="#fff" stroke-linecap="round" stroke-width="11">
+          </path>
+          <rect fill="#365f82" height="77" rx="30" width="148" x="126" y="149">
+          </rect>
+          <ellipse cx="167" cy="181" fill="#f8c77d" rx="13" ry="17">
+          </ellipse>
+          <ellipse cx="233" cy="181" fill="#f8c77d" rx="13" ry="17">
+          </ellipse>
+          <path d="M184 206q16 14 32 0" fill="none" stroke="#d7eff3" stroke-linecap="round" stroke-width="5">
+          </path>
+          <circle cx="114" cy="217" fill="#f28b22" r="10">
+          </circle>
+          <circle cx="286" cy="217" fill="#f28b22" r="10">
+          </circle>
+         </g>
+        </svg>
+       </div>
+      </div>
+      <div class="hero-project-label hero-label-top">
+       <small>
+        PROTOTYPE
+       </small>
+       <strong>
+        File retriever
+       </strong>
+      </div>
+      <div class="hero-project-label hero-label-bottom">
+       <small>
+        LIVE DEMO
+       </small>
+       <strong>
+        AssistX
+       </strong>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- STRIP -->
+   <div class="skills-strip">
+    <div class="skills-inner">
+     <div class="skills-group">
+      <span class="skills-label">
+       BACKEND &amp; DATABASES
+      </span>
+      <span class="skills-backend">
+       Python · FastAPI · Django · Flask · PostgreSQL · SQLAlchemy ·
+              Alembic · Pydantic · REST APIs · JWT Auth
+      </span>
+     </div>
+     <div class="skills-tools">
+      <span class="skills-label">
+       FRONTEND, AI &amp; TOOLS
+      </span>
+      <span class="skills-tools-list">
+       React · HTML/CSS · LLM APIs · Ollama · Embeddings · FAISS ·
+              Docker · Git
+      </span>
+     </div>
+    </div>
+   </div>
+   <!-- PROJECTS -->
+   <div class="projects-section" id="projects">
+    <div class="section-heading">
+     <span class="section-label">
+      01 / SELECTED WORK
+     </span>
+     <h2 class="section-title">
+      A few things I’ve built and explored.
+     </h2>
+    </div>
+    <div class="project-grid">
+     <article class="portfolio-project project-card">
+      <div class="project-meta">
+       <span class="project-status">
+        APPLICATION
+       </span>
+       <span class="project-tech">
+        FastAPI · PostgreSQL · React · Docker
+       </span>
+      </div>
+      <h3 class="project-title">
+       AssistX
+      </h3>
+      <strong class="project-subtitle">
+       Helpdesk &amp; Ticket Management System
+      </strong>
+      <p class="project-description">
+       A role-based helpdesk application for managing employee
+              complaints, department assignments and ticket resolution
+              workflows.
+      </p>
+      <div aria-hidden="true" class="project-separator">
+      </div>
+      <a class="project-link" href="assistx.html">
+       Read the breakdown →
+      </a>
+     </article>
+     <article class="portfolio-project project-card">
+      <div class="project-meta">
+       <span class="project-status">
+        APPLICATION
+       </span>
+       <span class="project-tech">
+        FastAPI · PostgreSQL · React
+       </span>
+      </div>
+      <h3 class="project-title">
+       VetCare
+      </h3>
+      <strong class="project-subtitle">
+       Veterinary Clinic Management System
+      </strong>
+      <p class="project-description">
+       A clinic management application covering appointments,
+              consultations, pet records, doctor schedules and payments.
+      </p>
+      <div aria-hidden="true" class="project-separator">
+      </div>
+      <a class="project-link" href="vetcare.html">
+       Read the breakdown →
+      </a>
+     </article>
+     <article class="portfolio-project project-card">
+      <div class="project-meta">
+       <span class="project-status">
+        IN DEVELOPMENT
+       </span>
+       <span class="project-tech">
+        Python · FAISS · Sentence Transformers
+       </span>
+      </div>
+      <h3 class="project-title">
+       RAG File Retriever
+      </h3>
+      <strong class="project-subtitle">
+       Semantic Search for Local Files
+      </strong>
+      <p class="project-description">
+       A local file retrieval prototype that uses embeddings to find
+              relevant files based on their content, not just their names.
+      </p>
+      <div aria-hidden="true" class="project-separator">
+      </div>
+      <a class="project-link" href="rag-file-retriever.html">
+       Read the breakdown →
+      </a>
+     </article>
+     <article class="portfolio-project project-card">
+      <div class="project-meta">
+       <span class="project-status">
+        PROTOTYPE
+       </span>
+       <span class="project-tech">
+        Python · OpenAI API · Ollama · Qwen
+       </span>
+      </div>
+      <h3 class="project-title">
+       LLM Ticket Classifier
+      </h3>
+      <strong class="project-subtitle">
+       AI-Powered Complaint Classification
+      </strong>
+      <p class="project-description">
+       A prototype that transforms unstructured complaints into
+              categorized tickets with structured fields and priorities.
+      </p>
+      <div aria-hidden="true" class="project-separator">
+      </div>
+      <a class="project-link" href="llm-ticket-classifier.html">
+       Read the breakdown →
+      </a>
+     </article>
+    </div>
+   </div>
+   <!-- CLIENT WORK -->
+   <div class="experience-section" id="client-work">
+    <div class="experience-heading">
+     <span class="section-label">
+      02 / PROFESSIONAL EXPERIENCE
+     </span>
+     <h2 class="section-title">
+      Professional experience
+     </h2>
+     <p class="experience-intro">
+      Selected contributions across application development and
+            deployment.
+     </p>
+    </div>
+    <div class="experience-grid">
+     <div class="experience-card">
+      <h3 class="experience-title">
+       Appointment scheduling &amp; clinical workflows
+      </h3>
+      <p class="experience-description">
+       Developed appointment scheduling, doctor availability and
+              consultation workflows for a veterinary clinic application.
+      </p>
+     </div>
+     <div class="experience-card">
+      <h3 class="experience-title">
+       Software licensing &amp; deployment
+      </h3>
+      <p class="experience-description">
+       Implemented licence activation and validation workflows and worked
+              on Docker-based centralized deployment.
+      </p>
+     </div>
+    </div>
+   </div>
+   <!-- ABOUT -->
+   <div class="about-section" id="about">
+    <span class="section-label">
+     03 / ABOUT
+    </span>
+    <p class="about-description">
+     I’m a Python developer who enjoys understanding how applications work
+          end-to-end—from APIs and databases to intuitive user interfaces and
+          deployment. My experience spans backend systems, full-stack
+          applications, and applied AI prototypes. I care about maintainable
+          code, thoughtful UX, and creating tools people actually enjoy using.
+    </p>
+    <span class="about-education">
+     M.Sc. Computer Science (ML elective) · B.Sc. Physics · Mumbai,
+          India
+    </span>
+   </div>
+   <!-- CONTACT -->
+   <div class="contact-section" id="contact">
+    <div aria-hidden="true" class="contact-glow">
+    </div>
+    <div class="contact-inner">
+     <h2 class="contact-title">
+      Let’s build something meaningful.
+     </h2>
+     <div class="contact-links contact-actions">
+      <a class="contact-email email-link" href="mailto:maninipednekar@gmail.com" title="Add your email address to the mailto link">
+       Get in touch
+      </a>
+      <a aria-label="GitHub — add your profile URL" class="contact-github social-link" href="https://github.com/Maninisp" rel="noopener noreferrer" target="_blank" title="Add your GitHub profile URL">
+       <svg aria-hidden="true" fill="currentColor" height="23" viewbox="0 0 24 24" width="23">
+        <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.08c-3.1.67-3.75-1.32-3.75-1.32-.51-1.3-1.25-1.64-1.25-1.64-1.02-.7.08-.69.08-.69 1.13.08 1.73 1.16 1.73 1.16 1 .1.77 2.7 3.2 1.92.1-.73.4-1.23.72-1.51-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.16-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.14a10.7 10.7 0 0 1 5.55 0c2.11-1.43 3.05-1.14 3.05-1.14.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.51.41.36.77 1.06.77 2.14v3.18c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z">
+        </path>
+       </svg>
+       GitHub
+      </a>
+      <a aria-label="LinkedIn — add your profile URL" class="contact-linkedin social-link" href="https://www.linkedin.com/in/maninipednekar/" rel="noopener noreferrer" target="_blank" title="Add your LinkedIn profile URL">
+       <svg aria-hidden="true" fill="currentColor" height="23" viewbox="0 0 24 24" width="23">
+        <path d="M20.45 2H3.55C2.7 2 2 2.67 2 3.5v17C2 21.33 2.7 22 3.55 22h16.9c.86 0 1.55-.67 1.55-1.5v-17c0-.83-.69-1.5-1.55-1.5ZM7.93 18.75H4.98V9.2h2.95v9.55ZM6.45 7.9a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.3 10.85H15.8V14.1c0-1.1-.02-2.53-1.54-2.53-1.54 0-1.78 1.2-1.78 2.45v4.73H9.53V9.2h2.83v1.3h.04c.4-.74 1.36-1.53 2.8-1.53 3 0 3.55 1.97 3.55 4.53v5.25Z">
+        </path>
+       </svg>
+       LinkedIn
+      </a>
+      <a aria-label="Resume — PDF link to be added" class="contact-resume social-link" href="#contact" target="_blank" title="Add your resume PDF link">
+       <svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z">
+        </path>
+        <path d="M14 2v6h6M8 13h8M8 17h6">
+        </path>
+       </svg>
+       Resume
+      </a>
+     </div>
+     <div class="site-credit">
+      © 2026 Manini. Built with care. Last updated as projects progress.
+     </div>
+    </div>
+   </div>
+  </div>
+  <a aria-label="Back to top" class="back-to-top" hidden="" href="#top" title="Back to top">
+   <svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="22">
+    <path d="m6 14 6-6 6 6">
+    </path>
+   </svg>
+  </a>
+ </body>
+</html>

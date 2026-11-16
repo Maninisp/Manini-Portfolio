@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   LLM Ticket Classifier — Manini Portfolio
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+  <link href="css/common.css" rel="stylesheet"/>
+  <link href="css/projects.css" rel="stylesheet"/>
+  <link href="css/theme.css" rel="stylesheet"/>
+  <script src="js/site.js">
+  </script>
+ </head>
+ <body data-demo-url="" data-repository-url="" id="top">
+  <header class="topbar">
+   <nav class="nav wrap">
+    <a class="back" href="index.html#projects">
+     ← All projects
+    </a>
+    <div class="nav-tools">
+     <button aria-label="Switch to dark mode" aria-pressed="false" class="theme-toggle" title="Switch to dark mode" type="button">
+      <svg aria-hidden="true" class="moon-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
+       <path d="M20.9 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.9 13.2Z">
+       </path>
+      </svg>
+      <svg aria-hidden="true" class="sun-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" viewbox="0 0 24 24">
+       <circle cx="12" cy="12" r="4">
+       </circle>
+       <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5">
+       </path>
+      </svg>
+     </button>
+     <a class="brand" href="index.html">
+      Manini.
+     </a>
+    </div>
+   </nav>
+  </header>
+  <main>
+   <section class="hero">
+    <div class="wrap">
+     <div class="eyebrow">
+      <span class="status">
+       Prototype
+      </span>
+     </div>
+     <h1>
+      LLM Ticket Classifier
+     </h1>
+     <p class="lead">
+      A prototype that transforms free-text complaints into structured support tickets with department, category, subcategory, priority, title, and summary.
+     </p>
+     <p class="small">
+      Explores hosted OpenAI structured outputs and local inference with Ollama and Qwen 2.5.
+     </p>
+     <div class="pills">
+      <span class="pill">
+       Python
+      </span>
+      <span class="pill">
+       OpenAI API
+      </span>
+      <span class="pill">
+       Ollama
+      </span>
+      <span class="pill">
+       Qwen 2.5
+      </span>
+      <span class="pill">
+       Structured JSON
+      </span>
+     </div>
+     <div class="actions" data-project-links="" hidden="">
+      <a class="btn primary" data-project-link="demo" hidden="" rel="noopener noreferrer" target="_blank">
+       Live demo ↗
+      </a>
+      <a class="btn secondary" data-project-link="https://github.com/Maninisp/llm-ticket-classifier" hidden="" rel="noopener noreferrer" target="_blank">
+       GitHub repository ↗
+      </a>
+     </div>
+    </div>
+   </section>
+   <div class="meta">
+    <div class="wrap">
+     <div>
+      <small>
+       Project type
+      </small>
+      <strong>
+       AI classification prototype
+      </strong>
+     </div>
+     <div>
+      <small>
+       Core stack
+      </small>
+      <strong>
+       Python · OpenAI API · Ollama
+      </strong>
+     </div>
+     <div>
+      <small>
+       Current stage
+      </small>
+      <strong>
+       Prototype
+      </strong>
+     </div>
+    </div>
+   </div>
+   <section class="section">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      01 / The problem
+     </div>
+     <div>
+      <h2>
+       The problem this project addresses.
+      </h2>
+      <p>
+       Unstructured employee complaints are inconsistent and can contain multiple issues that need to be routed separately.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section section-highlight">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      02 / What I built
+     </div>
+     <div>
+      <h2>
+       Capabilities and technical approach.
+      </h2>
+      <p>
+       Compare a hosted structured-output API with a local Ollama model, while keeping output validation independent from model-generated text.
+      </p>
+      <div class="features">
+       <div class="feature">
+        <h3>
+         Classification
+        </h3>
+        <p>
+         Department → category → subcategory classification
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Ticket generation
+        </h3>
+        <p>
+         Ticket title, summary, and priority generation
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Multiple complaints
+        </h3>
+        <p>
+         Splitting multiple complaints into separate tickets
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Hosted model
+        </h3>
+        <p>
+         OpenAI structured-output implementation
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Local inference
+        </h3>
+        <p>
+         Local Ollama implementation using Qwen 2.5 3B
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Validation
+        </h3>
+        <p>
+         JSON validation and allowed-value checks planned
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      03 / How it works
+     </div>
+     <div>
+      <h2>
+       A straightforward application flow.
+      </h2>
+      <div class="flow">
+       <div class="node">
+        <span>
+         Input
+        </span>
+        Complaint text
+       </div>
+       <span class="arrow">
+        →
+       </span>
+       <div class="node">
+        <span>
+         Inference
+        </span>
+        OpenAI or Ollama model
+       </div>
+       <span class="arrow">
+        →
+       </span>
+       <div class="node">
+        <span>
+         Output
+        </span>
+        Structured ticket JSON
+       </div>
+       <span class="arrow">
+        →
+       </span>
+       <div class="node">
+        <span>
+         Validation
+        </span>
+        Validation layer
+       </div>
+      </div>
+      <div class="note">
+       <p>
+        Conceptual component overview; not a complete infrastructure diagram.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section section-highlight">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      04 / Next steps
+     </div>
+     <div>
+      <h2>
+       Current status and what comes next.
+      </h2>
+      <p>
+       Harden JSON validation, add tests and error handling, and evaluate classification consistency.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section" data-project-links="" hidden="" id="demo">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      05 / Explore the project
+     </div>
+     <div>
+      <h2>
+       Demo &amp; source code.
+      </h2>
+      <div class="two" data-project-resource-grid="">
+       <div class="chip" data-project-resource="demo" hidden="">
+        <h3>
+         Live demo
+        </h3>
+        <p>
+         Try the application in your browser.
+        </p>
+        <a class="btn secondary" data-project-link="demo" hidden="" rel="noopener noreferrer" target="_blank">
+         Open live demo ↗
+        </a>
+       </div>
+       <div class="chip" data-project-resource="repository" hidden="" id="repository">
+        <h3>
+         Repository
+        </h3>
+        <p>
+         Explore the project source code on GitHub.
+        </p>
+        <a class="btn secondary" data-project-link="https://github.com/Maninisp/llm-ticket-classifier" hidden="" rel="noopener noreferrer" target="_blank">
+         View GitHub repository ↗
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="wrap">
+    © Manini ·
+    <a href="index.html#projects">
+     Back to selected work
+    </a>
+   </div>
+  </footer>
+  <a aria-label="Back to top" class="back-to-top" hidden="" href="#top">
+   ↑
+  </a>
+ </body>
+</html>

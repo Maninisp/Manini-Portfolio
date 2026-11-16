@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   AssistX — Manini | Project breakdown
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+  <link href="css/common.css" rel="stylesheet"/>
+  <link href="css/projects.css" rel="stylesheet"/>
+  <link href="css/theme.css" rel="stylesheet"/>
+  <script src="js/site.js">
+  </script>
+ </head>
+ <body data-demo-url="" data-repository-url="" id="top">
+  <header class="topbar">
+   <nav class="nav wrap">
+    <a class="back" href="index.html#projects">
+     ← All projects
+    </a>
+    <div class="nav-tools">
+     <button aria-label="Switch to dark mode" aria-pressed="false" class="theme-toggle" title="Switch to dark mode" type="button">
+      <svg aria-hidden="true" class="moon-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
+       <path d="M20.9 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.9 13.2Z">
+       </path>
+      </svg>
+      <svg aria-hidden="true" class="sun-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" viewbox="0 0 24 24">
+       <circle cx="12" cy="12" r="4">
+       </circle>
+       <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5">
+       </path>
+      </svg>
+     </button>
+     <a class="brand" href="index.html">
+      Manini.
+     </a>
+    </div>
+   </nav>
+  </header>
+  <main>
+   <section class="hero">
+    <div class="wrap">
+     <div class="eyebrow">
+      <span class="status">
+       Application
+      </span>
+      Selected work / 2026
+     </div>
+     <h1>
+      AssistX
+     </h1>
+     <p class="lead">
+      A role-based helpdesk system that brings employee requests,
+            department assignments, and ticket resolution into one workflow.
+     </p>
+     <p class="small">
+      Built with Python and FastAPI, a PostgreSQL database, and a React
+            interface. Deployed using Docker for access from a central server on
+            a local network.
+     </p>
+     <div class="pills">
+      <span class="pill">
+       FastAPI
+      </span>
+      <span class="pill">
+       PostgreSQL
+      </span>
+      <span class="pill">
+       SQLAlchemy
+      </span>
+      <span class="pill">
+       React
+      </span>
+      <span class="pill">
+       JWT
+      </span>
+      <span class="pill">
+       Docker
+      </span>
+     </div>
+     <div class="actions" data-project-links="" hidden="">
+      <a class="btn primary" data-project-link="demo" hidden="" rel="noopener noreferrer" target="_blank">
+       Live demo ↗
+      </a>
+      <a class="btn secondary" data-project-link="repository" hidden="" rel="noopener noreferrer" target="_blank">
+       GitHub repository ↗
+      </a>
+     </div>
+    </div>
+   </section>
+   <div class="meta">
+    <div class="wrap">
+     <div>
+      <small>
+       Project type
+      </small>
+      <strong>
+       Business application
+      </strong>
+     </div>
+     <div>
+      <small>
+       My contribution
+      </small>
+      <strong>
+       Backend, frontend &amp; deployment
+      </strong>
+     </div>
+     <div>
+      <small>
+       Deployment
+      </small>
+      <strong>
+       Docker · LAN server
+      </strong>
+     </div>
+    </div>
+   </div>
+   <section class="section">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      01 / The problem
+     </div>
+     <div>
+      <h2>
+       One place to manage internal requests.
+      </h2>
+      <p>
+       Employee issues can involve different teams and follow different
+              approval or resolution paths. AssistX organizes those requests
+              into tickets, gives users role-specific views, and helps the
+              responsible department track them through resolution.
+      </p>
+      <p>
+       The focus was to make everyday ticket handling straightforward
+              while keeping access and actions appropriate to each user's role.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section section-highlight">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      02 / What I built
+     </div>
+     <div>
+      <h2>
+       From request to resolution.
+      </h2>
+      <div class="features">
+       <div class="feature">
+        <h3>
+         Ticket lifecycle
+        </h3>
+        <p>
+         Create, update, search, filter and track tickets across
+                  pending and completed work.
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Role-based access
+        </h3>
+        <p>
+         Different views and permissions for employees, resolvers,
+                  administrators and department leadership.
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Department workflows
+        </h3>
+        <p>
+         Route and manage requests according to department, category
+                  and responsibility.
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Operational dashboard
+        </h3>
+        <p>
+         Summarize ticket activity and provide a practical overview of
+                  outstanding work.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      03 / How it works
+     </div>
+     <div>
+      <h2>
+       A straightforward application flow.
+      </h2>
+      <p>
+       The React frontend communicates with FastAPI endpoints. Requests
+              are validated and handled by backend logic, while PostgreSQL
+              stores the application data. JWT-based authentication supports
+              role-aware access.
+      </p>
+      <div class="flow">
+       <div class="node">
+        <span>
+         FRONTEND
+        </span>
+        React UI
+       </div>
+       <span class="arrow">
+        →
+       </span>
+       <div class="node">
+        <span>
+         BACKEND
+        </span>
+        FastAPI + validation
+       </div>
+       <span class="arrow">
+        →
+       </span>
+       <div class="node">
+        <span>
+         DATABASE
+        </span>
+        PostgreSQL
+       </div>
+      </div>
+      <div class="note">
+       <p>
+        <strong>
+         Deployment:
+        </strong>
+        The application runs through Docker
+                Compose with separate web, API, database and worker services,
+                plus a database migration step.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section section-highlight">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      04 / Related AI prototype
+     </div>
+     <div>
+      <h2>
+       Exploring complaint classification with LLMs.
+      </h2>
+      <p>
+       Alongside the ticketing application, I developed a separate Python
+              prototype that converts free-text complaints into structured
+              ticket fields such as department, category, subcategory, priority
+              and summary.
+      </p>
+      <div class="two">
+       <div class="chip">
+        <h3>
+         OpenAI implementation
+        </h3>
+        <p class="muted">
+         Uses the OpenAI SDK to request structured outputs.
+        </p>
+       </div>
+       <div class="chip">
+        <h3>
+         Local implementation
+        </h3>
+        <p class="muted">
+         Uses Ollama with a Qwen model for local inference.
+        </p>
+       </div>
+      </div>
+      <div class="note">
+       <p>
+        <strong>
+         Scope:
+        </strong>
+        This classifier is a separate prototype.
+                It is not presented here as a deployed AssistX feature.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      05 / Engineering work
+     </div>
+     <div>
+      <h2>
+       Implementation beyond the interface.
+      </h2>
+      <div class="two">
+       <div class="chip">
+        <h3>
+         Authentication &amp; permissions
+        </h3>
+        <ul>
+         <li>
+          JWT-based login flow
+         </li>
+         <li>
+          Role-specific ticket actions
+         </li>
+         <li>
+          Department-linked access
+         </li>
+        </ul>
+       </div>
+       <div class="chip">
+        <h3>
+         Deployment &amp; maintenance
+        </h3>
+        <ul>
+         <li>
+          Containerized backend and frontend
+         </li>
+         <li>
+          PostgreSQL persistence
+         </li>
+         <li>
+          Centralized LAN deployment
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section" data-project-links="" hidden="" id="demo">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      06 / Explore the project
+     </div>
+     <div>
+      <h2>
+       Demo &amp; source code.
+      </h2>
+      <div class="two" data-project-resource-grid="">
+       <div class="chip" data-project-resource="demo" hidden="">
+        <h3>
+         Live demo
+        </h3>
+        <p>
+         Try the application in your browser.
+        </p>
+        <a class="btn secondary" data-project-link="demo" hidden="" rel="noopener noreferrer" target="_blank">
+         Open live demo ↗
+        </a>
+       </div>
+       <div class="chip" data-project-resource="repository" hidden="" id="repository">
+        <h3>
+         Repository
+        </h3>
+        <p>
+         Explore the project source code on GitHub.
+        </p>
+        <a class="btn secondary" data-project-link="repository" hidden="" rel="noopener noreferrer" target="_blank">
+         View GitHub repository ↗
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="wrap">
+    © Manini ·
+    <a href="index.html#projects">
+     Back to selected work
+    </a>
+   </div>
+  </footer>
+  <a aria-label="Back to top" class="back-to-top" hidden="" href="#top" title="Back to top">
+   <svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="22">
+    <path d="m6 14 6-6 6 6">
+    </path>
+   </svg>
+  </a>
+ </body>
+</html>

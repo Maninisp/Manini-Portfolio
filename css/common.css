@@ -1,0 +1,90 @@
+/* Shared theme tokens and baseline rules for all portfolio pages. */
+:root {
+  --blue: #6b90b3;
+  --deep: #315b7d;
+  --orange: #f28b22;
+  --ink: #263c4d;
+  --muted: #536d7b;
+  --paper: #f7f5ef;
+  --mint: #e5f0e2;
+  --line: #cdd8d5;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+[hidden] { display: none !important; }
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 4px;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font:
+    16px/1.7 "DM Sans",
+    Arial,
+    sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+}
+a {
+  color: inherit;
+}
+
+
+:root { --bg: var(--paper); }
+[id] { scroll-margin-top: 100px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: #f28b22;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 5px 16px #1c405a40;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+.back-to-top:hover {
+  transform: translateY(-3px);
+  background: #dc7510;
+}
+.back-to-top:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .back-to-top {
+    transition: none;
+  }
+}
+

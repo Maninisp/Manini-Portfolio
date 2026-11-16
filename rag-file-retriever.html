@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   RAG File Retriever — Manini Portfolio
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+  <link href="css/common.css" rel="stylesheet"/>
+  <link href="css/projects.css" rel="stylesheet"/>
+  <link href="css/theme.css" rel="stylesheet"/>
+  <script src="js/site.js">
+  </script>
+ </head>
+ <body data-demo-url="" data-repository-url="" id="top">
+  <header class="topbar">
+   <nav class="nav wrap">
+    <a class="back" href="index.html#projects">
+     ← All projects
+    </a>
+    <div class="nav-tools">
+     <button aria-label="Switch to dark mode" aria-pressed="false" class="theme-toggle" title="Switch to dark mode" type="button">
+      <svg aria-hidden="true" class="moon-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
+       <path d="M20.9 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.9 13.2Z">
+       </path>
+      </svg>
+      <svg aria-hidden="true" class="sun-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" viewbox="0 0 24 24">
+       <circle cx="12" cy="12" r="4">
+       </circle>
+       <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5">
+       </path>
+      </svg>
+     </button>
+     <a class="brand" href="index.html">
+      Manini.
+     </a>
+    </div>
+   </nav>
+  </header>
+  <main>
+   <section class="hero">
+    <div class="wrap">
+     <div class="eyebrow">
+      <span class="status">
+       In development
+      </span>
+     </div>
+     <h1>
+      RAG File Retriever
+     </h1>
+     <p class="lead">
+      A local file retrieval prototype that uses embeddings to find files
+            by meaning rather than exact filename or keyword matches.
+     </p>
+     <p class="small">
+      Built with Python, FAISS, and Sentence Transformers, with a CLI for local retrieval.
+     </p>
+     <div class="pills">
+      <span class="pill">
+       Python
+      </span>
+      <span class="pill">
+       FAISS
+      </span>
+      <span class="pill">
+       Sentence Transformers
+      </span>
+      <span class="pill">
+       CLI
+      </span>
+     </div>
+     <div class="actions" data-project-links="" hidden="">
+      <a class="btn primary" data-project-link="demo" hidden="" rel="noopener noreferrer" target="_blank">
+       Live demo ↗
+      </a>
+      <a class="btn secondary" data-project-link="https://github.com/Maninisp/rag-file-retriever" hidden="" rel="noopener noreferrer" target="_blank">
+       GitHub repository ↗
+      </a>
+     </div>
+    </div>
+   </section>
+   <div class="meta">
+    <div class="wrap">
+     <div>
+      <small>
+       Project type
+      </small>
+      <strong>
+       Local retrieval prototype
+      </strong>
+     </div>
+     <div>
+      <small>
+       Core stack
+      </small>
+      <strong>
+       Python · FAISS · Sentence Transformers
+      </strong>
+     </div>
+     <div>
+      <small>
+       Current stage
+      </small>
+      <strong>
+       In development
+      </strong>
+     </div>
+    </div>
+   </div>
+   <section class="section">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      01 / The problem
+     </div>
+     <div>
+      <h2>
+       The problem this project addresses.
+      </h2>
+      <p>
+       Traditional filename or exact-term searches miss documents that
+            express a relevant idea using different wording.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section section-highlight">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      02 / What I built
+     </div>
+     <div>
+      <h2>
+       Capabilities and technical approach.
+      </h2>
+      <p>
+       Start with a local embedding-based prototype, then improve
+              retrieval quality, maintainability, and evaluation in phases
+              rather than treating a prototype as a finished RAG system.
+      </p>
+      <div class="features">
+       <div class="feature">
+        <h3>
+         Document ingestion
+        </h3>
+        <p>
+         Local document ingestion and embeddings prototype
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Semantic search
+        </h3>
+        <p>
+         Semantic similarity retrieval using FAISS
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Hybrid retrieval
+        </h3>
+        <p>
+         Planned project-level and hybrid retrieval
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Incremental indexing
+        </h3>
+        <p>
+         Planned incremental indexing and file format support
+        </p>
+       </div>
+       <div class="feature">
+        <h3>
+         Evaluation and privacy
+        </h3>
+        <p>
+         Planned evaluation, privacy controls, and optional LLM
+                integrations
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      03 / How it works
+     </div>
+     <div>
+      <h2>
+       A straightforward application flow.
+      </h2>
+      <div class="flow">
+       <div class="node">
+        <span>
+         Documents
+        </span>
+        Local files
+       </div>
+       <span class="arrow">
+        →
+       </span>
+       <div class="node">
+        <span>
+         Processing
+        </span>
+        Text extraction / chunking (planned)
+       </div>
+       <span class="arrow">
+        →
+       </span>
+       <div class="node">
+        <span>
+         Embeddings
+        </span>
+        Embeddings
+       </div>
+       <span class="arrow">
+        →
+       </span>
+       <div class="node">
+        <span>
+         Retrieval
+        </span>
+        FAISS search
+       </div>
+      </div>
+      <div class="note">
+       <p>
+        Conceptual component overview; not a complete infrastructure
+            diagram.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section section-highlight">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      04 / Next steps
+     </div>
+     <div>
+      <h2>
+       Current status and what comes next.
+      </h2>
+      <p>
+       Phase 2: code quality, a single entry point, and CLI usability.
+            Later phases cover hybrid retrieval, incremental indexing, formats,
+            evaluation, and release.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section" data-project-links="" hidden="" id="demo">
+    <div class="wrap section-grid">
+     <div class="kicker">
+      05 / Explore the project
+     </div>
+     <div>
+      <h2>
+       Demo &amp; source code.
+      </h2>
+      <div class="two" data-project-resource-grid="">
+       <div class="chip" data-project-resource="demo" hidden="">
+        <h3>
+         Live demo
+        </h3>
+        <p>
+         Try the application in your browser.
+        </p>
+        <a class="btn secondary" data-project-link="demo" hidden="" rel="noopener noreferrer" target="_blank">
+         Open live demo ↗
+        </a>
+       </div>
+       <div class="chip" data-project-resource="repository" hidden="" id="repository">
+        <h3>
+         Repository
+        </h3>
+        <p>
+         Explore the project source code on GitHub.
+        </p>
+        <a class="btn secondary" data-project-link="https://github.com/Maninisp/rag-file-retriever" hidden="" rel="noopener noreferrer" target="_blank">
+         View GitHub repository ↗
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="wrap">
+    © Manini ·
+    <a href="index.html#projects">
+     Back to selected work
+    </a>
+   </div>
+  </footer>
+  <a aria-label="Back to top" class="back-to-top" hidden="" href="#top">
+   ↑
+  </a>
+ </body>
+</html>
